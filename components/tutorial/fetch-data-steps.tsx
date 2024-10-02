@@ -47,7 +47,7 @@ export default function Page() {
 export default function FetchDataSteps() {
   return (
     <ol className="flex flex-col gap-6">
-      <TutorialStep title="Create some tables and insert some data">
+      <TutorialStep step="Step 1" title="Create some tables and insert some data">
         <p>
           Head over to the{" "}
           <a
@@ -74,7 +74,7 @@ export default function FetchDataSteps() {
         <CodeBlock code={create} />
       </TutorialStep>
 
-      <TutorialStep title="Query Supabase data from Next.js">
+      <TutorialStep step="Step 2" title="Query Supabase data from Next.js">
         <p>
           To create a Supabase client and query data from an Async Server
           Component, create a new page.tsx file at{" "}
@@ -88,7 +88,7 @@ export default function FetchDataSteps() {
         <CodeBlock code={client} />
       </TutorialStep>
 
-      <TutorialStep title="Build in a weekend and scale to millions!">
+      <TutorialStep step="Step 3" title="Build in a weekend and scale to millions!">
         <p>You're ready to launch your product to the world! 🚀</p>
       </TutorialStep>
     </ol>
