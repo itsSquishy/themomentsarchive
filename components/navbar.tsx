@@ -15,7 +15,7 @@ import AuthFooterButtons from "@/components/footer-auth";
 
 export default function Navbar() {
   return (
-    <NextUINavbar isBordered maxWidth="xl" position="sticky" className="h-24 bg-background/50 z-50 rounded-lg">
+    <NextUINavbar isBordered maxWidth="xl" position="sticky" className="h-24 bg-background/50 z-50 rounded-lg max-w-7xl">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <Link href="/">
@@ -25,7 +25,7 @@ export default function Navbar() {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-20 h-auto sm:w-24"
+              className="w-24 h-auto"
             />
           </Link>
         </NavbarBrand>

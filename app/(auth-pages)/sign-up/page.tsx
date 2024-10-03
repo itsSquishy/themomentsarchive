@@ -21,7 +21,7 @@ export default function SignUpPage({ searchParams }: { searchParams: Message }) 
   return (
     <>
     {/* Logo for devices smaller than 1024px */}
-    <div className="absolute top-4 left-4 lg:hidden">
+    <div className="absolute top-4 left-4 lg:hidden z-50">
       <a href="/">
         <Image
           src="/logo.png" // Path to your logo
@@ -32,7 +32,7 @@ export default function SignUpPage({ searchParams }: { searchParams: Message }) 
         />
       </a>
     </div>
-      <div className="container relative min-h-screen flex flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
+      <div className="container relative min-h-screen flex flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0 z-10">
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
           <div className="absolute inset-0 bg-primary" />
           <div className="relative z-20 flex items-center text-lg font-medium">

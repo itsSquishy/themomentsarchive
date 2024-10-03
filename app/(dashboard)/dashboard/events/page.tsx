@@ -49,7 +49,7 @@ export default async function EventsPage({ searchParams }: { searchParams: { sta
           </Button>
         </Link>
       </div>
-      <div className="w-full md:w-3/4 mt-8">
+      <div className="w-full md:w-3/4 xl:w-full mt-8">
       {events && events.length > 0 ? (
         <EventsTable events={events} />
       ) : (
