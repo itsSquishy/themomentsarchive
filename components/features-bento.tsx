@@ -2,7 +2,7 @@ import { Card, CardHeader, Image } from "@nextui-org/react";
 
 export default function FeaturesBento() {
     return (
-        <div className="flex w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center p-2">
             {/* Responsive Grid Layout */}
             <div className="grid h-[100vh] w-full gap-4 
                 grid-cols-1 grid-rows-auto 

@@ -8,10 +8,10 @@ export default async function Index() {
     <>
     <Navbar />
     <div className="max-w-7xl">
-      <main className="flex-1 flex flex-col gap-2 px-5">
+      <main className="flex-1 flex flex-col gap-2 w-full">
         <Hero />
         <FeaturesBento />
-        <h2 className="font-bold text-2xl mb-4">How it works for guests</h2>
+        <h2 className="font-bold text-2xl mb-4 px-4">How it works for guests</h2>
         <HowItWorks />
         
         <footer className="w-full h-12 flex items-center justify-center border-t mx-auto text-center text-xs gap-8 pt-16 pb-2">

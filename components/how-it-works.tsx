@@ -2,7 +2,7 @@ import { TutorialStep } from "./tutorial/tutorial-step";
 
 export default function HowItWorks() {
   return (
-    <ol className="flex flex-col gap-6">
+    <ol className="flex flex-col gap-6 px-4">
       <TutorialStep step="Step 1" title="Scan the QR code">
         <p>
           Start by scanning the QR code provided at the event using your smartphone.

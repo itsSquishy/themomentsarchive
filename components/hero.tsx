@@ -9,7 +9,7 @@ export default function Header() {
     <div className="relative flex flex-col gap-16 mt-12 items-center">
 
       {/* Hero Content */}
-      <div className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center font-bold p-2 z-10">
+      <div className="text-3xl lg:text-4xl !leading-tight mx-auto max-w-xl text-center font-bold p-4 z-10">
         Photo & video sharing for your{" "}
         <br />
         <WordRotator />{" "}
@@ -19,10 +19,10 @@ export default function Header() {
         </p>
         {/* Button container */}
         <div className="flex mt-16 gap-2 justify-center">
-          <Button asChild size="lg" variant={"default"}>
+          <Button asChild size="default" variant={"default"}>
             <Link href="/dashboard/home">Get started</Link>
           </Button>
-          <Button asChild size="lg" variant={"outline"}>
+          <Button asChild size="default" variant={"outline"}>
             <Link href="/protected">Try the Demo</Link>
           </Button>
         </div>
