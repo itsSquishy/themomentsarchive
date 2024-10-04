@@ -14,7 +14,7 @@ export default function Header() {
         <br />
         <WordRotator />{" "}
         <br />
-        <p className="text-gray-700 text-xl font-normal">
+        <p className="text-gray-700 text-base font-semibold">
           Now made easy with a scannable QR code
         </p>
         {/* Button container */}

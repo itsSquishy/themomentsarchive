@@ -1,8 +1,13 @@
 'use client'; // This is a client-side component
 
-import { Table, TableHeader, TableBody, TableRow, TableCell, TableColumn, CardHeader } from "@nextui-org/react";
-import { Card, CardBody } from "@nextui-org/react";
-import { CardContent } from "./ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 // Define the type for a single event
 interface Event {
@@ -64,7 +69,7 @@ export function EventsTable({ events }: EventsProps) {
     <div className="w-full flex flex-col gap-4"> {/* Tailwind CSS for layout */}
       {events.map((event) => (
         <Card key={event.id} className="min-w-sm bg-primary border border-customTealBorder shadow-lg"> {/* Using Tailwind CSS for min-width */}
-          <CardBody>
+
             <CardContent className="p-3">
             <p className="uppercase font-semibold text-white">{formatDate(event.event_date)}</p>
             <p className="text-tiny uppercase text-background/40">{event.event_type}</p>
@@ -72,7 +77,7 @@ export function EventsTable({ events }: EventsProps) {
               <p className="text-base md:text-xl text-white font-bold">{event.event_name}</p>
               </CardHeader>
             </CardContent>
-          </CardBody>
+
         </Card>
       ))}
     </div>

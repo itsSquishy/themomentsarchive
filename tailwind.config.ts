@@ -23,6 +23,7 @@ module.exports = {
   		colors: {
 			customTeal: '#045B62',
 			customTealBorder: '#008080',
+			customTealHover: '#3ad9de',
 			customDarkBackground: '#D3D1CA',
   			border: 'hsl(var(--border))',
   			input: 'hsl(184, 92%, 20%)',

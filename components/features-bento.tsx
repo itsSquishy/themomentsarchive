@@ -1,4 +1,5 @@
-import { Card, CardHeader, Image } from "@nextui-org/react";
+import { Card, CardHeader } from "@nextui-org/card";
+import { Image } from "@nextui-org/react";
 
 export default function FeaturesBento() {
     return (
@@ -11,7 +12,7 @@ export default function FeaturesBento() {
 
 
                 {/* Card 1 */}
-                <Card className="relative col-span-1 sm:col-span-2 md:col-span-2 md:row-span-3">
+                <Card className="relative col-span-1 sm:col-span-2 md:col-span-2 md:row-span-3 rounded-lg">
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <CardHeader className="absolute z-20 top-1 flex-col !items-start">
@@ -27,7 +28,7 @@ export default function FeaturesBento() {
                 </Card>
 
                 {/* Card 2 */}
-                <Card className="relative col-span-1 md:row-span-4">
+                <Card className="relative col-span-1 md:row-span-4 rounded-lg">
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <CardHeader className="absolute z-20 top-1 flex-col !items-start">
@@ -43,7 +44,7 @@ export default function FeaturesBento() {
                 </Card>
 
                 {/* Card 3 */}
-                <Card className="relative col-span-1 md:row-span-3">
+                <Card className="relative col-span-1 md:row-span-3 rounded-lg">
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <CardHeader className="absolute z-20 top-1 flex-col !items-start">
@@ -59,7 +60,7 @@ export default function FeaturesBento() {
                 </Card>
 
                 {/* Card 4 */}
-                <Card className="relative col-span-1 md:row-span-3">
+                <Card className="relative col-span-1 md:row-span-3 rounded-lg">
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <CardHeader className="absolute z-20 top-1 flex-col !items-start">
@@ -75,7 +76,7 @@ export default function FeaturesBento() {
                 </Card>
 
                 {/* Card 5 */}
-                <Card className="relative col-span-1 md:row-span-2">
+                <Card className="relative col-span-1 md:row-span-2 rounded-lg">
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/50 z-10"></div>
                     <CardHeader className="absolute z-20 top-1 flex-col !items-start">
